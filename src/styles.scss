@@ -1,0 +1,48 @@
+/* You can add global styles to this file, and also import other style files */
+@import "@angular/material/prebuilt-themes/indigo-pink.css";
+@import "@material/typography/mdc-typography.scss";
+
+html, body{
+    padding: 0;
+    margin: 0;
+    height: 100%;
+}
+
+.item2{
+    overflow-y: auto !important;
+}
+
+.item2 .mat-figure{
+    align-items: initial !important;
+    justify-content: initial !important;
+}
+
+table{
+    width: 100%;
+}
+
+
+.item3{
+    overflow-y: auto !important;
+    height: 100%;
+}
+
+.item3 .mat-figure{
+    align-items: flex-start !important;
+    justify-content: initial !important;
+    position: initial !important;
+    flex-wrap: wrap;
+}
+
+.card{
+    margin: 5px;
+    flex-grow: 1;
+}
+
+.expansion{
+    margin: 5px;
+}
+
+.clickable{
+    cursor: pointer;
+}

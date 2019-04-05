@@ -1,0 +1,8 @@
+<app-menu (emitter)="sidenav.toggle()"></app-menu>
+<mat-sidenav-container>
+  <mat-sidenav #sidenav mode="over">
+      <app-sidenav-links (emitter)="sidenav.toggle()"></app-sidenav-links>
+  </mat-sidenav>
+
+  <router-outlet></router-outlet>
+</mat-sidenav-container>
